@@ -157,15 +157,15 @@ To embed a meeting in `your service or app` using an iframe, use the following c
 
 ```bash
 # clone this repo
-$ git clone https://github.com/miroslavpejic85/mirotalk.git
+git clone https://github.com/miroslavpejic85/mirotalk.git
 # go to mirotalk dir
-$ cd mirotalk
+cd mirotalk
 # copy .env.template to .env (edit it according to your needs)
-$ cp .env.template .env
+cp .env.template .env
 # install dependencies
-$ npm install
+npm install
 # start the server
-$ npm start
+npm start
 ```
 
 -   Open [http://localhost:3000](http://localhost:3000) in your browser.
@@ -184,15 +184,15 @@ $ npm start
 
 ```bash
 # copy .env.template to .env (edit it according to your needs)
-$ cp .env.template .env
+cp .env.template .env
 # Copy docker-compose.template.yml in docker-compose.yml (edit it according to your needs)
-$ cp docker-compose.template.yml docker-compose.yml
+cp docker-compose.template.yml docker-compose.yml
 # Get official image from Docker Hub
-$ docker pull mirotalk/p2p:latest
+docker pull mirotalk/p2p:latest
 # create and start containers
-$ docker-compose up # -d
+docker-compose up # -d
 # to stop and remove resources
-$ docker-compose down
+docker-compose down
 ```
 
 -   Open [http://localhost:3000](http://localhost:3000) in your browser.
